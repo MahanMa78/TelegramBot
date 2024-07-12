@@ -28,10 +28,10 @@ sample_data = [(1544 , "Mahan" , "Mazaheri" , "123456789"),
                (7865 , "Shayan" , "Mazaheri" , "123456789"),
                (7878 , "Parsa" , "Abdolkarimi" , "123456789"),]
 
-with sqlite3.connect('user.db') as connection:
-    cursor = connection.cursor()
-    # cursor.execute(sample_data_query,sample_data) --> baraye tak data az in estefadeh mishe
-    cursor.executemany(sample_data_query,sample_data)
+# with sqlite3.connect('user.db') as connection:
+#     cursor = connection.cursor()
+#     # cursor.execute(sample_data_query,sample_data) --> baraye tak data az in estefadeh mishe
+#     cursor.executemany(sample_data_query,sample_data)
 
 #zamani ke az with estefade mikonim 
 
